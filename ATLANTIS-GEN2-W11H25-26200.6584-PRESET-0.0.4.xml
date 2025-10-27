@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset isAutoSaved="false" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>10/27/2025 17:26:42</Date>
+	<AppInfo>
+		<Version>2025.10.10649</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 11 Professional 25H2 x64 - 10.0.26200.6901 (en-GB)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 11 Professional 25H2 x64 - 10.0.26200.6901 (en-GB)</Version>
+		<GUID>{EC16321B-BA94-4DF4-9D23-E21BFFB118AE}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM"></RemoveComponents>
+	<Compatibility>
+		<ComponentFeatures></ComponentFeatures>
+		<MachineDrivers></MachineDrivers>
+	</Compatibility>
+	<Packages>
+		<Options>
+			<CleanHotfixedLeftovers>1</CleanHotfixedLeftovers>
+		</Options>
+		<File>F:\NTLite\Cache\Updates\11.25H2.x64\windows11.0-kb5070762-x64_4b467e35732c13393ba032305d398b615423a8ad.cab</File>
+		<File>F:\NTLite\Cache\Updates\11.25H2.x64\windows11.0-kb5070773-x64_b235da912270f84b761402e9511000a4f500b4ac.msu</File>
+		<File>F:\NTLite\Cache\Updates\11.25H2.x64\windows11.0-kb5066683-x64_71fecafb5ffa2f4d377657e7bc68e5aea98ecfd4.cab</File>
+	</Packages>
+	<Drivers>
+		<File>Z:\Drivers\MSI MPG Edge Ti x870e Wifi\AMD_RAID_Driver_9.3.3.188\NVMe_DID\rcbottom\rcbottom.inf</File>
+		<File>Z:\Drivers\MSI MPG Edge Ti x870e Wifi\AMD_RAID_Driver_9.3.3.188\NVMe_DID\rccfg\rccfg.inf</File>
+		<File>Z:\Drivers\MSI MPG Edge Ti x870e Wifi\AMD_RAID_Driver_9.3.3.188\NVMe_DID\rcraid\rcraid.inf</File>
+		<File>Z:\Drivers\MSI MPG Edge Ti x870e Wifi\Qualcomm NCM865 BT Drivers_3.1.0.1262\BtFilter.inf</File>
+		<File>Z:\Drivers\MSI MPG Edge Ti x870e Wifi\Qualcomm NCM865 WIFI Drivers_3.1.0.1430\qcwlan64.inf</File>
+		<File>Z:\Drivers\MSI MPG Edge Ti x870e Wifi\Realtek USB Universal Driver\USBAud\Win64\Realtek\CodecExtOem_RTK_86\ExtRtXUsb_Msi_AVO_RTK.inf</File>
+		<File>Z:\Drivers\MSI MPG Edge Ti x870e Wifi\Realtek USB Universal Driver\USBAud\Win64\Realtek\CodecExtOem_RTK_86\ExtRtXUsb_Msi_AVO_V4_RTK.inf</File>
+		<File>Z:\Drivers\MSI MPG Edge Ti x870e Wifi\Realtek USB Universal Driver\USBAud\Win64\Realtek\CodecExtOem_RTK_86\ExtRtXUsb_Msi_RTK.inf</File>
+		<File>Z:\Drivers\MSI MPG Edge Ti x870e Wifi\Realtek USB Universal Driver\USBAud\Win64\Realtek\RealtekASIO_13\RealtekASIO.inf</File>
+		<File>Z:\Drivers\MSI MPG Edge Ti x870e Wifi\Realtek USB Universal Driver\USBAud\Win64\Realtek\RealtekHSA_374\RealtekHSA.inf</File>
+		<File>Z:\Drivers\MSI MPG Edge Ti x870e Wifi\Realtek USB Universal Driver\USBAud\Win64\Realtek\RealtekService_883.7\RealtekService.inf</File>
+		<File>Z:\Drivers\MSI MPG Edge Ti x870e Wifi\Realtek USB Universal Driver\USBAud\Win64\Realtek\RealtekUSBAPO_13_1645\RealtekUSBAPO.inf</File>
+		<File>Z:\Drivers\MSI MPG Edge Ti x870e Wifi\Realtek USB Universal Driver\USBAud\Win64\Realtek\RealtekUSBAPO_12_1645\RealtekUSBAPO.inf</File>
+		<File>Z:\Drivers\MSI MPG Edge Ti x870e Wifi\realtek_pcielan_10.74.1128.2024\WIN10\64\rt640x64.inf</File>
+		<File>Z:\Drivers\MSI MPG Edge Ti x870e Wifi\realtek_pcielan_10.74.1128.2024\WIN10\WinPE\64\ws640x64.inf</File>
+		<File>Z:\Drivers\MSI MPG Edge Ti x870e Wifi\Realtek USB Universal Driver\USBAud\Win64\RtDUsbAD_msi.inf</File>
+	</Drivers>
+	<Unattended mode="1">
+		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-International-Core">
+				<InputLocale>040a:0000040a</InputLocale>
+				<SystemLocale>en-GB</SystemLocale>
+				<UILanguage>en-GB</UILanguage>
+				<UILanguageFallback>en-GB</UILanguageFallback>
+				<UserLocale>en-GB</UserLocale>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<TimeZone>Romance Standard Time</TimeZone>
+				<AutoLogon>
+					<Enabled>true</Enabled>
+					<LogonCount>9999999</LogonCount>
+					<Username>NazariGamer</Username>
+					<Password>
+						<PlainText>false</PlainText>
+						<Value>MgAyADEAMQA3ADcAUABhAHMAcwB3AG8AcgBkAA==</Value>
+					</Password>
+				</AutoLogon>
+				<OOBE>
+					<HideEULAPage>true</HideEULAPage>
+					<HideLocalAccountScreen>true</HideLocalAccountScreen>
+					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+					<NetworkLocation>Home</NetworkLocation>
+					<ProtectYourPC>3</ProtectYourPC>
+				</OOBE>
+				<UserAccounts>
+					<LocalAccounts>
+						<LocalAccount>
+							<DisplayName>NazariGamer</DisplayName>
+							<Group>Administrators</Group>
+							<Name>NazariGamer</Name>
+							<Password>
+								<PlainText>false</PlainText>
+								<Value>MgAyADEAMQA3ADcAUABhAHMAcwB3AG8AcgBkAA==</Value>
+							</Password>
+						</LocalAccount>
+					</LocalAccounts>
+				</UserAccounts>
+			</component>
+		</settings>
+		<settings pass="specialize">
+			<component name="Microsoft-Windows-Security-SPP-UX">
+				<SkipAutoActivation>true</SkipAutoActivation>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<ComputerName>ATLANTIS-G2</ComputerName>
+				<ProductKey>PNWKQ-PTH8R-8D6CH-TH42F-TVJXM</ProductKey>
+				<RegisteredOrganization>NazariRigs</RegisteredOrganization>
+				<RegisteredOwner>NazariGamer</RegisteredOwner>
+			</component>
+		</settings>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-International-Core-WinPE">
+				<InputLocale>040a:0000040a</InputLocale>
+				<SystemLocale>en-GB</SystemLocale>
+				<UILanguage>en-GB</UILanguage>
+				<UILanguageFallback>en-GB</UILanguageFallback>
+				<UserLocale>en-GB</UserLocale>
+				<SetupUILanguage>
+					<UILanguage>en-GB</UILanguage>
+				</SetupUILanguage>
+			</component>
+			<component name="Microsoft-Windows-Setup">
+				<Diagnostics>
+					<OptIn>false</OptIn>
+				</Diagnostics>
+				<DynamicUpdate>
+					<Enable>false</Enable>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<UserData>
+					<AcceptEula>true</AcceptEula>
+					<FullName>ATLANTIS-G2</FullName>
+					<ProductKey>
+						<Key>PNWKQ-PTH8R-8D6CH-TH42F-TVJXM</Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks></Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+			<Task>updates_Winre.wim_01__64</Task>
+		</ImageTasks>
+	</ApplyOptions>
+</Preset>

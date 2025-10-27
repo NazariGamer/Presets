@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset isAutoSaved="false" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>10/27/2025 15:57:49</Date>
+	<AppInfo>
+		<Version>2025.10.10649</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 11 Professional 25H2 x64 - 10.0.26200.6901 (en-GB)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 11 Professional 25H2 x64 - 10.0.26200.6584 (en-GB)</Version>
+		<GUID>{29CB82C7-689A-4C77-B569-15AA20C3D3B8}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM"></RemoveComponents>
+	<Compatibility>
+		<ComponentFeatures></ComponentFeatures>
+		<MachineDrivers></MachineDrivers>
+	</Compatibility>
+	<Packages>
+		<Options>
+			<CleanHotfixedLeftovers>1</CleanHotfixedLeftovers>
+		</Options>
+		<File>F:\NTLite\Cache\Updates\11.25H2.x64\windows11.0-kb5070762-x64_4b467e35732c13393ba032305d398b615423a8ad.cab</File>
+		<File>F:\NTLite\Cache\Updates\11.25H2.x64\windows11.0-kb5070773-x64_b235da912270f84b761402e9511000a4f500b4ac.msu</File>
+		<File>F:\NTLite\Cache\Updates\11.25H2.x64\windows11.0-kb5066683-x64_71fecafb5ffa2f4d377657e7bc68e5aea98ecfd4.cab</File>
+		<File>F:\NTLite\Cache\Updates\11.25H2.x64\updateplatform.amd64fre_d6dd025fbea82ea59a6b6b4ce3d1e4075c018091.exe</File>
+		<File>F:\NTLite\Cache\Updates\11.25H2.x64\mpam-fe.exe</File>
+		<File>F:\NTLite\Cache\Updates\11.25H2.x64\windows11.0-kb5066128-x64-ndp481_e2239075b7e05662cbbe1b4acfe9e57e40a2b9c0.msu</File>
+		<File>F:\NTLite\Cache\Updates\11.25H2.x64\Microsoft.UI.Xaml.2.8_8.2501.31001.0_x64.appx</File>
+		<File>F:\NTLite\Cache\Updates\11.25H2.x64\Microsoft.WindowsAppRuntime.1.8_8000.616.304.0_x64.appx</File>
+		<File>F:\NTLite\Cache\Updates\11.25H2.x64\Microsoft.WSL_2.6.2.0_x64_ARM64.msixbundle</File>
+		<File>F:\NTLite\Cache\Updates\11.25H2.x64\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle</File>
+		<File>F:\NTLite\Cache\Updates\11.25H2.x64\Microsoft.WindowsTerminal_1.23.12811.0_8wekyb3d8bbwe.msixbundle</File>
+	</Packages>
+	<Tweaks></Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+		</ImageTasks>
+	</ApplyOptions>
+</Preset>
