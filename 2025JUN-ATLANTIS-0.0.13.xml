@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date selected="06/20/2025 12:55:54">06/20/2025 12:55:54</Date>
+	<AppInfo>
+		<Version>2025.6.10482</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 11 Professional 24H2 x64 - 10.0.26100.4351 (en-GB)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.4351 (en-GB)</Version>
+		<GUID>{2B8409FC-30D1-488D-AB17-95B7B541DA8F}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM"></RemoveComponents>
+	<Compatibility protectHidden="true">
+		<ComponentFeatures>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">Docker</Feature>
+			<Feature enabled="yes">EA Anti-Cheat</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="no">SnippingTool</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="yes">HostRefresh</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="yes">ActivationKMS</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features></Features>
+	<Packages>
+		<Options>
+			<CleanHotfixedLeftovers>0</CleanHotfixedLeftovers>
+			<OptimizeAppX>false</OptimizeAppX>
+			<UpdateBootManager>false</UpdateBootManager>
+		</Options>
+		<File>E:\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5059442-x64_d96d5a62d0a410fd8b07cb3098908e21a4c01c63.cab</File>
+		<File>E:\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5059693-x64_bb51f1eadbba9b776ef15eaf2b736018d9117110.cab</File>
+		<File>E:\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5046617-x64_1e5d7b716c0747592ae80c218f1d81bbb7b0c7ab.msu</File>
+		<File>E:\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5046740-x64_df8055b1d87f2ff089dba2fc2c3d93f552d698a1.msu</File>
+		<File>E:\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5048667-x64_d4ad0ca69de9a02bc356757581e0e0d6960c9f93.msu</File>
+		<File>E:\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5050009-x64_97aac2ab4f607b11d50ad2fd88a5841ee0b18dd5.msu</File>
+		<File>E:\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5050094-x64_3d5a5f9ef20fc35cc1bd2ccb08921ee8713ce622.msu</File>
+		<File>E:\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5058499-x64_f633db6acc14132bf74cc1461bd77b8941819d5f.msu</File>
+		<File>E:\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5061977-x64_72be6406594d4df1d8d066263c13388c758dc69f.msu</File>
+		<File>E:\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5063060-x64_96be31e3e3e1cbc216229abb83e5be9da4e08496.msu</File>
+		<File>E:\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5047134-x64_6273c3ce9dedf2c11b3dabfd5367e4f4f2021ea3.cab</File>
+		<File>E:\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5059806-x64_b607edb8a152d38998211802d01b63e5acc23de3.cab</File>
+		<File>E:\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5060614-x64_967168340843abcfa0e75968f6a58ac6146b5dbe.cab</File>
+	</Packages>
+	<Commands>
+		<PostUpdates>
+			<!--<Command>cmd /c echo Example from [MOUNTDIR]\Windows &amp; pause</Command>-->
+			<!--<Command>dism /image:[MOUNTDIR] /get-intl</Command>-->
+		</PostUpdates>
+	</Commands>
+	<Drivers>
+		<Options>
+			<ReuseDriverCache>false</ReuseDriverCache>
+			<ShowHidden>true</ShowHidden>
+		</Options>
+	</Drivers>
+	<Unattended mode="1">
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<EditionPrompt>false</EditionPrompt>
+		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-International-Core">
+				<InputLocale>040a:0000040a</InputLocale>
+				<SystemLocale>en-001</SystemLocale>
+				<UILanguage>en-GB</UILanguage>
+				<UILanguageFallback>en-GB</UILanguageFallback>
+				<UserLocale>en-001</UserLocale>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<TimeZone>Romance Standard Time</TimeZone>
+				<AutoLogon>
+					<Enabled>true</Enabled>
+					<LogonCount>9999999</LogonCount>
+					<Username>NazariGamer</Username>
+					<Password>
+						<PlainText>false</PlainText>
+						<Value>MgAyADEAMQA3ADcAUABhAHMAcwB3AG8AcgBkAA==</Value>
+					</Password>
+				</AutoLogon>
+				<OOBE>
+					<HideEULAPage>true</HideEULAPage>
+					<HideLocalAccountScreen>true</HideLocalAccountScreen>
+					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+					<NetworkLocation>Home</NetworkLocation>
+					<ProtectYourPC>3</ProtectYourPC>
+					<SkipMachineOOBE>true</SkipMachineOOBE>
+					<SkipUserOOBE>true</SkipUserOOBE>
+				</OOBE>
+				<UserAccounts>
+					<LocalAccounts>
+						<LocalAccount>
+							<Description>LorenzoGamer</Description>
+							<DisplayName>LorenzoGamer</DisplayName>
+							<Group>Administrators</Group>
+							<Name>LorenzoGamer</Name>
+							<Password>
+								<PlainText>false</PlainText>
+								<Value>MgAyADEAMQA3ADcAUABhAHMAcwB3AG8AcgBkAA==</Value>
+							</Password>
+						</LocalAccount>
+						<LocalAccount>
+							<Description>NazariGamer</Description>
+							<DisplayName>NazariGamer</DisplayName>
+							<Group>Administrators</Group>
+							<Name>NazariGamer</Name>
+							<Password>
+								<PlainText>false</PlainText>
+								<Value>MgAyADEAMQA3ADcAUABhAHMAcwB3AG8AcgBkAA==</Value>
+							</Password>
+						</LocalAccount>
+					</LocalAccounts>
+				</UserAccounts>
+			</component>
+		</settings>
+		<settings pass="specialize">
+			<component name="Microsoft-Windows-Security-SPP-UX">
+				<SkipAutoActivation>true</SkipAutoActivation>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<ComputerName>ATLANTIS</ComputerName>
+				<ProductKey>PNWKQ-PTH8R-8D6CH-TH42F-TVJXM</ProductKey>
+				<RegisteredOrganization>Nazari Rigs</RegisteredOrganization>
+				<RegisteredOwner>Nazari Gamer</RegisteredOwner>
+			</component>
+			<component name="Microsoft-Windows-UnattendedJoin">
+				<Identification>
+					<JoinWorkgroup>LW11DMN</JoinWorkgroup>
+				</Identification>
+			</component>
+		</settings>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-International-Core-WinPE">
+				<InputLocale>040a:0000040a</InputLocale>
+				<SystemLocale>en-001</SystemLocale>
+				<UILanguage>en-GB</UILanguage>
+				<UILanguageFallback>en-GB</UILanguageFallback>
+				<UserLocale>en-001</UserLocale>
+				<SetupUILanguage>
+					<UILanguage>en-GB</UILanguage>
+				</SetupUILanguage>
+			</component>
+			<component name="Microsoft-Windows-Setup">
+				<Diagnostics>
+					<OptIn>false</OptIn>
+				</Diagnostics>
+				<DynamicUpdate>
+					<Enable>false</Enable>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/INDEX</Key>
+								<Value>1</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<AcceptEula>true</AcceptEula>
+					<FullName>ATLANTIS</FullName>
+					<ProductKey>
+						<Key>PNWKQ-PTH8R-8D6CH-TH42F-TVJXM</Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings></Settings>
+		<Services></Services>
+		<ExtraServices></ExtraServices>
+		<ScheduledTasks></ScheduledTasks>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+			<Task>updates_Winre.wim_01__64</Task>
+			<Task>msix_Winre.wim_01__64</Task>
+			<Task>drivers_boot.wim_01_9_64</Task>
+			<Task>drivers_boot.wim_02_2_64</Task>
+			<Task>drivers_Winre.wim_01__64</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>E:\Windows 11 ISO\2025JUN-ATLANTIS-0.0.12.iso</AutoIsoFile>
+		<AutoIsoLabel>2025JUN-ATLANTIS-0.0.12</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+	</ApplyOptions>
+	<Execution BeforeLogonMode="0">
+		<Remove></Remove>
+		<Change></Change>
+		<Add></Add>
+	</Execution>
+	<Registry>
+		<File>Z:\NTLite\RegistryFiles\persist-mapped-drive.reg</File>
+		<File>Z:\NTLite\RegistryFiles\set-execution-policy.reg</File>
+	</Registry>
+</Preset>

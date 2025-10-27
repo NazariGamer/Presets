@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date selected="06/15/2025 17:23:16">06/15/2025 17:23:16</Date>
+	<AppInfo>
+		<Version>2025.6.10476</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 11 Professional 24H2 x64 - 10.0.26100.4351 (en-US)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 11 Professional 24H2 x64 - 10.0.26100.1742 (en-GB)</Version>
+		<GUID>{5E26E9FB-477E-49EB-AA38-F84436A24139}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM"></RemoveComponents>
+	<Compatibility protectHidden="true">
+		<ComponentFeatures>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">Docker</Feature>
+			<Feature enabled="yes">EA Anti-Cheat</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="no">SnippingTool</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="yes">HostRefresh</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="yes">ActivationKMS</Feature>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features></Features>
+	<Packages>
+		<Options>
+			<CleanHotfixedLeftovers>0</CleanHotfixedLeftovers>
+			<OptimizeAppX>false</OptimizeAppX>
+			<UpdateBootManager>false</UpdateBootManager>
+		</Options>
+	</Packages>
+	<Commands>
+		<PostUpdates>
+			<!--<Command>cmd /c echo Example from [MOUNTDIR]\Windows &amp; pause</Command>-->
+			<!--<Command>dism /image:[MOUNTDIR] /get-intl</Command>-->
+		</PostUpdates>
+	</Commands>
+	<Drivers>
+		<Options>
+			<ReuseDriverCache>false</ReuseDriverCache>
+			<ShowHidden>true</ShowHidden>
+		</Options>
+		<File>Z:\Drivers\AMD Raid Driver V9.3.0.296 ASUS ROG STRIX X570-E\NVMe_CC\rcbottom\rcbottom.inf</File>
+		<File>Z:\Drivers\AMD Raid Driver V9.3.0.296 ASUS ROG STRIX X570-E\NVMe_CC\rccfg\rccfg.inf</File>
+		<File>Z:\Drivers\AMD Raid Driver V9.3.0.296 ASUS ROG STRIX X570-E\NVMe_CC\rcraid\rcraid.inf</File>
+	</Drivers>
+	<Unattended mode="1">
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>false</SaveBothArch>
+		<EditionPrompt>false</EditionPrompt>
+		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-International-Core">
+				<InputLocale>040a:0000040a</InputLocale>
+				<SystemLocale>en-US</SystemLocale>
+				<UILanguage>en-GB</UILanguage>
+				<UILanguageFallback>en-GB</UILanguageFallback>
+				<UserLocale>en-GB</UserLocale>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<TimeZone>Romance Standard Time</TimeZone>
+				<AutoLogon>
+					<Enabled>true</Enabled>
+					<LogonCount>9999999</LogonCount>
+					<Username>NazariGamer</Username>
+					<Password>
+						<PlainText>false</PlainText>
+						<Value>MgAyADEAMQA3ADcAUABhAHMAcwB3AG8AcgBkAA==</Value>
+					</Password>
+				</AutoLogon>
+				<OOBE>
+					<HideEULAPage>true</HideEULAPage>
+					<HideLocalAccountScreen>true</HideLocalAccountScreen>
+					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+					<NetworkLocation>Home</NetworkLocation>
+					<ProtectYourPC>3</ProtectYourPC>
+					<SkipMachineOOBE>true</SkipMachineOOBE>
+					<SkipUserOOBE>true</SkipUserOOBE>
+				</OOBE>
+				<UserAccounts>
+					<LocalAccounts>
+						<LocalAccount>
+							<Description>NazariGamer</Description>
+							<DisplayName>NazariGamer</DisplayName>
+							<Group>Administrators</Group>
+							<Name>NazariGamer</Name>
+							<Password>
+								<PlainText>false</PlainText>
+								<Value>MgAyADEAMQA3ADcAUABhAHMAcwB3AG8AcgBkAA==</Value>
+							</Password>
+						</LocalAccount>
+					</LocalAccounts>
+				</UserAccounts>
+			</component>
+		</settings>
+		<settings pass="specialize">
+			<component name="Microsoft-Windows-Security-SPP-UX">
+				<SkipAutoActivation>true</SkipAutoActivation>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<ComputerName>ATLANTIS</ComputerName>
+				<ProductKey>PNWKQ-PTH8R-8D6CH-TH42F-TVJXM</ProductKey>
+				<RegisteredOrganization>Nazari Rigs</RegisteredOrganization>
+				<RegisteredOwner>NazariGamer</RegisteredOwner>
+			</component>
+			<component name="Microsoft-Windows-UnattendedJoin">
+				<Identification>
+					<JoinWorkgroup>LW11DMN</JoinWorkgroup>
+				</Identification>
+			</component>
+		</settings>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-International-Core-WinPE">
+				<InputLocale>040a:0000040a</InputLocale>
+				<SystemLocale>en-US</SystemLocale>
+				<UILanguage>en-GB</UILanguage>
+				<UILanguageFallback>en-GB</UILanguageFallback>
+				<UserLocale>en-GB</UserLocale>
+				<SetupUILanguage>
+					<UILanguage>en-GB</UILanguage>
+				</SetupUILanguage>
+			</component>
+			<component name="Microsoft-Windows-Setup">
+				<Diagnostics>
+					<OptIn>false</OptIn>
+				</Diagnostics>
+				<DynamicUpdate>
+					<Enable>false</Enable>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/INDEX</Key>
+								<Value>6</Value>
+							</MetaData>
+						</InstallFrom>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<AcceptEula>true</AcceptEula>
+					<FullName>ATLANTIS</FullName>
+					<ProductKey>
+						<Key>PNWKQ-PTH8R-8D6CH-TH42F-TVJXM</Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings></Settings>
+		<Services></Services>
+		<ExtraServices></ExtraServices>
+		<ScheduledTasks></ScheduledTasks>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveRebuild</Task>
+			<Task>imageFormatWim</Task>
+		</ImageTasks>
+		<AutoIsoFile>NTLite.iso</AutoIsoFile>
+		<AutoIsoLabel>NTLite</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+	</ApplyOptions>
+	<Execution BeforeLogonMode="0">
+		<Remove></Remove>
+		<Change></Change>
+		<Add>
+			<Item type="20">
+				<Path>netsh</Path>
+				<Params>advfirewall firewall set rule group="Network Discovery" new enable=Yes"</Params>
+				<Index>1000</Index>
+			</Item>
+			<Item type="20">
+				<Path>netsh</Path>
+				<Params>advfirewall firewall set rule group="File and printer sharing" new enable=Yes"</Params>
+				<Index>1001</Index>
+			</Item>
+			<Item type="20">
+				<Path>net</Path>
+				<Params>use Z: \\NAS-LW11DMN\networkstorage wnk-uyr*krn4DEN.peg /user:atlantis-smb /persistent:yes</Params>
+				<Index>1002</Index>
+			</Item>
+		</Add>
+	</Execution>
+	<Registry>
+		<File>Z:\NTLite\RegistryFiles\persist-mapped-drive.reg</File>
+		<File>Z:\NTLite\RegistryFiles\set-execution-policy.reg</File>
+	</Registry>
+</Preset>
